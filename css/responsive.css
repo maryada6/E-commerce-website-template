@@ -1,0 +1,30 @@
+@media only screen and (max-width: 666px) {
+      
+    header{
+        overflow: hidden;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        height: 34px;
+    }
+
+    .logo{
+        margin: 10px 0;
+    }
+    
+    .search input{
+        margin: 0 16px 10px 16px;
+    }
+    .card-item{
+        width:200px;
+    }
+
+    .card-item img{
+        width:140px;
+    }
+    
+   }

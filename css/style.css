@@ -1,0 +1,59 @@
+:root{
+    --main-bg-color:rgb(48, 48, 226);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:var(--main-bg-color);
+  font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 58px;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+nav ul li {
+  list-style-type:none;
+    padding: 0px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+
+}
+
+.search input{
+    width:35vw;
+    height: 24px;
+    border-radius: 4px;
+    padding:0px 12px;
+    margin: 0 20 0 56;
+    border:1px solid var(--main-bg-color);
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif
+}
+
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
